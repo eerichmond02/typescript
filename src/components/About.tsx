@@ -13,6 +13,12 @@ const About = () => {
         <li>Avoid errors</li>
         <li>Enable object oriented programming using JavaScript</li>
       </ul>
+      <p>When to Use TypeScript</p>
+      <ul>
+        <li>Large code base</li>
+        <li>Developers are accustomed to statically-typed languages</li>
+        <li>Can increase performance by eliminating type checks</li>
+      </ul>
       <p>Install & Setup</p>
       <ul>
         <li>Using create react app: <code>create-react-app my-app --scripts-version=react-scripts-ts</code></li>
