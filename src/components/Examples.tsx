@@ -37,3 +37,6 @@ class Examples extends React.Component<{}, { enthusiasmInput: any; helloEnthusia
 }
 
 export default Examples;
+
+// const nameToUpperCase = (name: string) => name.toUpperCase();
+// let upper = nameToUpperCase(123);
