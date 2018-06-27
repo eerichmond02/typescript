@@ -4,7 +4,6 @@ import "./App.css";
 import About from "./components/About";
 import Classes from "./components/Classes";
 import Examples from "./components/Examples";
-import ReactTypeScript from "./components/ReactTypeScript";
 import Types from "./components/Types";
 
 interface LinkParams {
