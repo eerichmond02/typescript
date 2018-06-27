@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-size: 14px;
 }
 
 .App-logo {
@@ -79,4 +80,13 @@ p, li {
 
 a.typescriptLink{
   color:  #00d8ff
+}
+
+ul {
+  margin-bottom: 3px;
+  margin-top: 3px;
+}
+
+.bold {
+  font-weight: bold;
 }
