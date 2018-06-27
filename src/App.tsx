@@ -2,8 +2,8 @@ import * as React from "react";
 import { BrowserRouter, Link, Route } from "react-router-dom";
 import "./App.css";
 import About from "./components/About";
+import Classes from "./components/Classes";
 import Examples from "./components/Examples";
-import OOP from "./components/OOP";
 import ReactTypeScript from "./components/ReactTypeScript";
 import Types from "./components/Types";
 
@@ -36,16 +36,14 @@ class App extends React.Component {
             <ul className="nav">
               <CustomLink label="About" to="/" exact={true}/>
               <CustomLink label="Types" to="/types" />
-              <CustomLink label="TypeScript + OOP" to="/oop" />
-              <CustomLink label="TypeScript + React" to="/reacttypescript" />
+              <CustomLink label="Classes & Interfaces" to="/classes" />
               <CustomLink label="Examples" to="/examples" />
             </ul>
           </header>
           <div className="content">
             <Route path="/" exact={true} component={About} />
             <Route path="/types" component={Types} />
-            <Route path="/oop" component={OOP} />
-            <Route path="/reacttypescript" component={ReactTypeScript} />
+            <Route path="/classes" component={Classes} />
             <Route path="/examples" component={Examples} />
           </div>
         </div>
